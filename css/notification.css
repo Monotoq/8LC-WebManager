@@ -1,0 +1,45 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 30/11/2016, 11:09:19 PM
+    Author     : Ignacio Serrano
+*/
+
+main div.notification{
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    border: 2px solid #ececec;
+    border-radius: 3px;
+    position: relative;
+}
+main div.notification a{
+    color: #888;
+    display: inline-block;
+    position: absolute;
+    top: 2px;
+    right: 5px;
+}
+main div.notification div{
+    color: #666452;
+    display: inline-block;
+    margin: 0.8em 1em 0.8em 2.5em;
+}
+main div.notification.attention{
+    border-color: #e6db55;
+    background: #fffbcc url('/img/icons/exclamation.png') 11px center no-repeat;
+}
+main div.notification.information{
+    border-color: #a2b4ee;
+    background: #dbe3ff url('/img/icons/information.png') 11px center no-repeat;
+}
+main div.notification.success{
+    border-color: #9adf8f;
+    background: #d5ffce url('/img/icons/tick_circle.png') 11px center no-repeat;
+}
+main div.notification.error{
+    border-color: #df8f8f;
+    background: #ffcece url('/img/icons/cross_circle.png') 11px center no-repeat;
+}

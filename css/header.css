@@ -1,0 +1,13 @@
+header{
+	padding: 0.1em;
+	height: 8em;
+	background-color: rgba(247,247,247,1);
+}
+header  div.logo.container{
+	background: url("/img/8lc-logo.png") no-repeat center center;
+	background-size: contain;
+	height: 5em;
+	width: 20em;
+	margin: 1em 0.5em;
+	display: inline-block;
+}

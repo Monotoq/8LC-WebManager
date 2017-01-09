@@ -1,0 +1,54 @@
+/**
+ * 	Naranja: #E74C3C
+ * 	Azul: #2C3E50
+ * 	Ostión: #ECF0F1
+ * 	Turquesa: #3498DB
+        Turquesa2: #3399ff
+ * 	azul: #2980B9
+        azul grisaceo: #122538
+        azul grisaceo palido: #192129
+ * 
+ */
+
+nav.vertical{
+    width: 17.5em;
+    min-height: 100%;
+    position: fixed;
+    top: 5.1em;
+    right:0;
+    bottom:0;
+    left:0;
+    background-color: #fff;
+}
+nav.vertical ul.main.nav{
+    margin: 1em 0 1em 0em;
+    list-style-type: none;
+}
+nav.vertical ul.main.nav > li{
+    height: 4em;
+    width: 100%;
+    color: #000;
+}
+nav.vertical ul.main.nav > li:hover{
+    background-color: rgba(51,153,255,0.1);
+}
+nav.vertical ul.main.nav > li a{
+    font-size: 14px;
+    color: #000;
+    line-height: 20px;
+    display: block;
+    vertical-align: top;
+    position: relative;
+    outline: none;
+    padding: 20px 40px;
+    top: -5px;
+}
+nav.vertical ul.main.nav > li a i{
+    margin: 5px 20px 0 0;
+    font-size: 20px;
+}
+nav.vertical ul.main.nav > li.selected  a{
+    color: #3399ff;
+    font-weight: bold;
+}
+

@@ -1,0 +1,108 @@
+/**
+ * 	Naranja: #E74C3C
+ * 	Azul: #2C3E50
+ * 	Ostión: #ECF0F1
+ * 	Turquesa: #3498DB
+        Turquesa2: #3399ff
+ * 	azul: #2980B9
+        azul grisaceo: #122538
+        azul grisaceo palido: #192129
+ * 
+ */
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Roboto', sans-serif;
+}
+html, body{
+	height: 100%;
+	background-color: rgba(247,247,247,1);
+}
+body{
+    letter-spacing: 0.4px;
+    line-height: 1.6;
+    font-weight: 400;
+}
+br{
+	clear: both;
+}
+a{
+	text-decoration: none;
+}
+main{
+    display: block;
+    overflow-y: auto;
+    overflow-x: hidden;
+    background-color: #fafafa;
+    position: fixed;
+    top: 5.1em;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin-left: 17.5em;
+    
+}
+main > div {
+	margin: 1em 2em 2em 2em;
+	
+}
+
+/*      ----- Content Box -----     */
+main div.content-box{
+    border-radius: 3px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    width: 35%;
+    min-height: 30em;
+    display: inline-block;
+    box-sizing: border-box;
+    position: relative;
+}
+main div.content-box div.content-box-header{
+    padding: 1.5em 1.2em;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    border-bottom: 1px solid #ddd;
+}
+main div.content-box div.content-box-content{
+    padding: 0.5em 1em 2em 0;
+}
+
+/*      ----- Tarjetas -----*/
+main div.content-box div.content-box-content section.content-box-card{
+    display: block;
+    border-bottom: 1px solid #ddd;
+    margin: 1em auto;
+    padding: 0.5em 0 0.5em 0;
+    width: 90%;
+}
+main div.content-box div.content-box-content div.content-box-card-title{
+    font-weight: bold;
+    margin-bottom: 0.2em;
+    height: 4em;
+}
+main div.content-box div.content-box-content div.content-box-card-title img{
+    max-width: 3em;
+    display: inline-block;
+    float: left;
+    margin-right: 1em;
+}
+main div.content-box div.content-box-content div.content-box-card-title p{
+    display: inline-block;
+    width: 70%;
+    position: relative;
+    top: 10px;
+}
+main div.content-box div.content-box-content div.content-box-card-content{
+    color: #606060;
+    margin-bottom: 1em;
+}
+main div.content-box div.content-box-content div.content-box-card-options{
+    text-align: right;
+}
+main div.content-box div.content-box-content div.content-box-card-options a{
+    color: #4688d7;
+}
+main div.content-box div.content-box-content div.content-box-card-options a:hover{
+    text-decoration: underline;
+}
